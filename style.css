@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(199, 255, 243);
+    
+}
+div{
+    width: 270px;
+    height: 500px;
+    display: inline-block;
+    background-image: url(https://wallpapermemory.com/uploads/691/moraine-lake-wallpaper-hd-1920x1200-128748.jpg);
+    
+}
+div:nth-child(1){
+    background-position: 24% 40%;
+    
+}
+div:nth-child(2){
+    background-position: 40.5% 40%;
+}
+div:nth-child(3){
+    background-position: 57% 40%;
+}
+div:nth-child(4){
+    background-position: 73% 40%;
+}
+
+h1{
+    visibility: hidden;
+}
+
+
+
+#first{
+
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-image: url(https://wallpapermemory.com/uploads/691/moraine-lake-wallpaper-hd-1920x1200-128748.jpg);
+        background-position: 60% 68%;
+        font-size: 11em;
+        visibility: visible;
+        margin:5px 300px;
+
+}
+

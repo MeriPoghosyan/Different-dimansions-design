@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(200, 243, 253);
+   
+}
+div{
+    width: 270px;
+    height: 500px;
+    display: inline-block;
+    background-image: url(https://i.pinimg.com/originals/dc/28/4e/dc284e4582e1420233a415c0cbf4c2d9.jpg);
+    
+}
+
+div:nth-child(1){
+    background-position: 4% 50%;
+}
+div:nth-child(2){
+    background-position:40% 50%;
+}
+div:nth-child(3){
+   
+    background-position: 76% 50%;
+}
+div:nth-child(4){
+    display: none;
+}
+h1{
+    visibility: hidden;
+}
+
+
+
+#second{
+
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-image: url(https://i.pinimg.com/originals/dc/28/4e/dc284e4582e1420233a415c0cbf4c2d9.jpg);
+        background-position: 60% 68%;
+        font-size: 11em;
+        visibility: visible;
+        margin:-80px 300px;
+
+}
